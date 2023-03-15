@@ -1,0 +1,15 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  font-family: 'Source Sans Pro', sans-serif;
+
+}
+
+.container{
+display: flex;
+margin-top: 10px;
+}
+.link{ 
+  list-style: none;
+  text-decoration-style: none;
+}

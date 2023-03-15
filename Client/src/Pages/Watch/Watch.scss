@@ -1,0 +1,253 @@
+.watch {
+    display: flex;
+    background-color: #212121;
+    -webkit-box-shadow: 0px 0px 18px 1px rgba(58, 58, 58, 0.39); 
+      box-shadow: 0px 0px 18px 1px rgba(78, 78, 78, 0.39);
+      margin-top: 70px;
+  }
+  .title{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 40px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  .spantitle::first-letter{
+    text-transform: uppercase;
+  }
+  .wrapper {
+    max-width: 800px;
+    width: 100%;
+    color: white;
+    padding: 20px;
+    -webkit-box-shadow: 0px 0px 18px 1px rgba(58, 58, 58, 0.39); 
+box-shadow: 0px 0px 18px 1px rgba(78, 78, 78, 0.39);
+  }
+  table {
+    border-collapse: collapse;
+    width: 100%;
+    margin-top: 50px;
+    -webkit-box-shadow: 0px 0px 18px 1px rgba(58, 58, 58, 0.39); 
+    box-shadow: 0px 0px 18px 1px rgba(78, 78, 78, 0.39);
+  
+    th, td {
+      border: 1px solid #444444;
+      padding: 8px;
+      text-align: left;
+      color: #ffffff;
+    }
+    
+    th {
+      background-color: #222222;
+    }
+  }
+  
+  .watchImg img {
+    width: 440px;
+    height: 500px;
+    margin-left: 10px;
+  }
+ 
+  .watchInfo {
+    padding: 10px;
+    text-align: left;
+  }
+  
+  .watchInfo div {
+    margin-bottom: 10px;
+  }
+  
+  .watchInfo span:first-child {
+    font-weight: bold;
+    display: inline-block;
+    width: auto;
+    padding:20px;
+  }  
+  .watchDescription {
+    display: grid;
+    margin-top: 20px;
+    height: auto;
+
+  }
+  
+  .watchDescription span:first-child {
+    font-size: 24px;
+    font-weight: bold;
+    padding: 10px;
+    margin-right: 10px;
+  }
+  
+  .watchDescription span:last-child {
+    margin-left: 10px;
+    font-weight: 500;
+  }
+  
+  .watchTrailer {
+
+    background-color: grey;
+  }
+  
+  .watchTrailer h3 {
+    font-size: 18px;
+    font-weight: bold;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 100px;
+  }
+  
+  .watchTrailer video,
+  .watchSecondary video {
+    width: 100%;
+    height: 500px;
+    object-fit: cover;
+  }
+  
+  .watchSecondary {
+    margin-top: 20px;
+    background-color: grey;
+  }
+  
+  .watchSecondary span {
+    font-weight: bold;
+    font-size: 18px;
+    font-weight: bold;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+  }
+  
+  .watchSecondary video {
+    width: 100%;
+  }
+  
+  .watchButtons {
+
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+  }
+  
+  .watchButtons button {
+    padding: 10px;
+    font-size: 16px;
+    font-weight: bold;
+    background-color: #ffffff;
+    color: #000000;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .watchButtons button:hover {
+    background-color: #070708;
+    color: white;
+  }
+  
+  .watchButtons button:first-child {
+    margin-right: 10px;
+  }
+  table {
+    border-collapse: collapse;
+    width: 100%;
+    margin-top: 50px;
+    -webkit-box-shadow: 0px 0px 18px 1px rgba(58, 58, 58, 0.39); 
+box-shadow: 0px 0px 18px 1px rgba(78, 78, 78, 0.39);
+    th, td {
+      border: 1px solid black;
+      padding: 8px;
+      text-align: left;
+
+    }
+    
+    th {
+      background-color: #000000;
+    }
+    
+    .download-button {
+      background-color: #e74c3c;
+      border: none;
+      color: white;
+      padding: 8px 16px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 16px;
+      margin: 4px 2px;
+      cursor: pointer;
+      border-radius: 4px;
+    }
+    .download-button:hover {
+      background-color: #c0392b;
+    }
+  }
+
+  .sidebar {
+    width: 250px;
+    background-color: #212121;
+    padding: 10px;
+    border-radius: 5px;
+   left: 850px;
+    position: fixed;
+    height: 100%;
+   
+  }
+  
+  .sidebar ul {
+    list-style: none;
+    margin: 0;
+    padding: 10px;
+  }
+  
+  .sidebar li {
+    margin: 5px 0;
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    font-size: 18px;
+    padding: 10px;
+    border-radius: 3px;
+    background-color:  #212121;
+    border: 1px solid #ddd;
+    color: white;
+  }
+  .sidebar li:hover {
+    color: #007bff;
+    cursor: pointer;
+  }
+  .sidebar li svg {
+    margin-right: 10px;
+  }
+  .search-form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .search-form input[type="text"] {
+    padding: 15px;
+    border: none;
+    
+    border-radius: 5px 0 0 5px;
+  }
+  
+  .search-form button[type="submit"] {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 0 5px 5px 0;
+    cursor: pointer;
+  }
+  
+  .search-form input[type="text"]:focus {
+    outline: none;
+  }
+  
+  .search-form button[type="submit"]:hover {
+    background-color: #3e8e41;
+  }
